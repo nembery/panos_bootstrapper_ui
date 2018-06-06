@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bootstrapper:
+    image: "nembery/panos_bootstrapper:v0.1"
+  aframe:
+    image: "nembery/aframe:v1.1"
+    ports:
+     - "8088:8000"
+    volumes:
+     - ./aframe_forms:/app/aframe/conf/imports
