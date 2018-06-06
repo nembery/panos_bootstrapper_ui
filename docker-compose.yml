@@ -1,7 +1,7 @@
 version: '3'
 services:
   bootstrapper:
-    image: "nembery/panos_bootstrapper:v0.1"
+    image: "nembery/panos_bootstrapper:v0.3"
   aframe:
     image: "nembery/aframe:v1.1"
     ports:
