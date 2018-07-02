@@ -11,3 +11,4 @@ services:
     volumes:
      - ./aframe/imports:/app/aframe/conf/imports
      - ./aframe/aframe.conf:/app/aframe/conf/aframe.conf
+     - ./aframe/db.sqlite3:/app/aframe/db.sqlite3
